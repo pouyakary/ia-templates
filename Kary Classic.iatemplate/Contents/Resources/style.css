@@ -31,6 +31,9 @@ a {
 }
 
 body {
+    counter-reset:      h2counter h1counter;
+    margin:             auto;
+    max-width:          450pt;
     padding-left:       30pt;
     padding-right:      30pt;
 }
@@ -56,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:    400;
 }
 
+h1 {
+    counter-increment:      h1counter;
+    counter-reset:          h2counter;
+}
+
 h1:first-child {
     margin:         3rem 0 4rem 0;
     margin-top:     20pt;
@@ -64,18 +72,32 @@ h1:first-child {
 
 h2 {
     border-top:         1pt solid black;
+    clear:              both;
     font-family:        "Avenir-Light";
     font-size:          10pt;
     letter-spacing:     10pt;
-    margin-top:         2em !important;
+    margin:             40pt 0 15pt 0;
     padding-top:        0.3em;
     text-align:         right;
     text-transform:     uppercase;
 }
 
-h2:before {
-    content:    "✣";
-}
+/* h2:before {
+ border-radius:          100pt;
+ color:                  #aaa;
+ content:                counter(h1counter) "/" counter(h2counter);
+ counter-increment:      h2counter;
+ float:                  left;
+ font-family:            "Hasklig-Medium";
+ font-size:              7pt;
+ letter-spacing:         normal;
+ margin-left:            5pt;
+ padding-bottom:         6pt;
+ }*/
+
+/* h2:before {
+ content:    "❛";
+ }*/
 
 b, strong {
     background-color:       #FFF8AB;
