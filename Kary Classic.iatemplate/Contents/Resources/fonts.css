@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'floraliaregular';
+    src: url('./floralia/Floralia-webfont.eot');
+    src: url('./floralia/Floralia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./floralia/Floralia-webfont.woff2') format('woff2'),
+         url('./floralia/Floralia-webfont.woff') format('woff'),
+         url('./floralia/Floralia-webfont.ttf') format('truetype'),
+         url('./floralia/Floralia-webfont.svg#floraliaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorantlight';
+    src: url('./cormorant-light/Cormorant-Light-webfont.eot');
+    src: url('./cormorant-light/Cormorant-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./cormorant-light/Cormorant-Light-webfont.woff2') format('woff2'),
+         url('./cormorant-light/Cormorant-Light-webfont.woff') format('woff'),
+         url('./cormorant-light/Cormorant-Light-webfont.ttf') format('truetype'),
+         url('./cormorant-light/Cormorant-Light-webfont.svg#cormorantlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorantlight_italic';
+    src: url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.eot');
+    src: url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.woff2') format('woff2'),
+         url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.woff') format('woff'),
+         url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.ttf') format('truetype'),
+         url('./cormorant-lightitalic/Cormorant-LightItalic-webfont.svg#cormorantlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant_uprightlight';
+    src: url('./cormorantupright-light/CormorantUpright-Light-webfont.eot');
+    src: url('./cormorantupright-light/CormorantUpright-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./cormorantupright-light/CormorantUpright-Light-webfont.woff2') format('woff2'),
+         url('./cormorantupright-light/CormorantUpright-Light-webfont.woff') format('woff'),
+         url('./cormorantupright-light/CormorantUpright-Light-webfont.ttf') format('truetype'),
+         url('./cormorantupright-light/CormorantUpright-Light-webfont.svg#cormorant_uprightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
