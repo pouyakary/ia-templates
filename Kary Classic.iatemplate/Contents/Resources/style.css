@@ -24,10 +24,16 @@ html {
 }
 
 a {
-    color:                      #278bd2;
-    text-decoration:            underline;
-    text-decoration-skip:       edges trailing-spaces leading-spaces;
-    text-decoration-style:      wavy;
+    background-color:       #abe8ff;
+    color:                  black;
+    font-weight:            normal;
+    padding-left:           0.13em;
+    padding-right:          0.15em;
+    text-decoration:        none;
+}
+
+a:visited {
+    background-color:       #afabff;
 }
 
 body {
@@ -204,4 +210,8 @@ kary-signature {
     display:                block;
     height:                 80pt;
     width:                  100%;
+}
+
+img {
+    max-width:      100%;
 }
