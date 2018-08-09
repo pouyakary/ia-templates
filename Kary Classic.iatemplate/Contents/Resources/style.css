@@ -1,92 +1,120 @@
 
-@import "fonts.css";
+/*
+ * ─── IMPORTS ────────────────────────────────────────────────────────────────────
+ */
 
-html {
-    background-color:       white;
-    font-family:            "cormorantlight";
-    font-size:              14pt;
-}
+    @import "fonts.css";
 
-@media print {
+/*
+ * ─── BASE ───────────────────────────────────────────────────────────────────────
+ */
+
     html {
-        font-size:      12pt;
+        background-color:       white;
+        font-family:            "Cormorant-Regular";
+        font-size:              14pt;
     }
-}
 
-#top-ornament {
-    -webkit-user-select:    none;
-    color:                  #000000;
-    font-family:            'floraliaregular';
-    font-size:              60pt;
-    margin-top:             20pt;
-    text-align:             center;
-    user-select:            none;
-}
+    @media print {
+            html {
+                font-size:      12pt;
+            }
+    }
 
-a {
-    background-color:       #abe8ff;
-    color:                  black;
-    font-weight:            normal;
-    padding-left:           0.13em;
-    padding-right:          0.15em;
-    text-decoration:        none;
-}
+    #top-ornament {
+        -webkit-user-select:    none;
+        color:                  #000000;
+        font-family:            'floraliaregular';
+        font-size:              60pt;
+        margin-top:             20pt;
+        text-align:             center;
+        user-select:            none;
+    }
 
-a:visited {
-    background-color:       #afabff;
-}
+/*
+ * ─── LINKS ──────────────────────────────────────────────────────────────────────
+ */
 
-body {
-    counter-reset:      h2counter h1counter;
-    margin:             auto;
-    max-width:          450pt;
-    padding-left:       30pt;
-    padding-right:      30pt;
-}
+    a {
+        background-color:       #abe8ff;
+        color:                  black;
+        font-weight:            normal;
+        padding-left:           0.13em;
+        padding-right:          0.15em;
+        text-decoration:        none;
+    }
 
-@media print {
+    a:visited {
+        background-color:       #afabff;
+    }
+
+/*
+ * ─── BODY ───────────────────────────────────────────────────────────────────────
+ */
+
     body {
-        padding-left:       3cm;
-        padding-right:      3cm;
+        counter-reset:      h2counter h1counter;
+        margin:             auto;
+        max-width:          450pt;
+        padding-left:       30pt;
+        padding-right:      30pt;
     }
-}
 
-i {
-    font-family:    "cormorantlight_italic";
-}
+    @media print {
+            body {
+                padding-left:       3cm;
+                padding-right:      3cm;
+            }
+    }
 
-p {
-    line-height:    1.4;
-    text-align:     justify;
-}
+/*
+ * ─── ITALIC ─────────────────────────────────────────────────────────────────────
+ */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:    "Avenir";
-    font-weight:    400;
-}
+    i {
+        font-family:    "Cormorant-Italic";
+    }
 
-h1 {
-    counter-increment:      h1counter;
-    counter-reset:          h2counter;
-}
+/*
+ * ─── PARENTHESIS ────────────────────────────────────────────────────────────────
+ */
 
-h1:first-child {
-    margin:         3rem 0 4rem 0;
-    margin-top:     20pt;
-    text-align:     center;
-}
+    p {
+        line-height:    1.4;
+        text-align:     justify;
+    }
 
-h2 {
-    border-top:         1px solid black;
-    clear:              both;
-    font-family:        "Avenir-Light";
-    font-size:          8pt;
-    letter-spacing:     10pt;
-    margin:             40pt 0 15pt 0;
-    padding-top:        0.3em;
-    text-align:         right;
-    text-transform:     uppercase;
-}
+/*
+ * ─── HEADERS ────────────────────────────────────────────────────────────────────
+ */
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family:    "Avenir";
+        font-weight:    400;
+    }
+
+    h1 {
+        counter-increment:      h1counter;
+        counter-reset:          h2counter;
+    }
+
+    h1:first-child {
+        margin:         3rem 0 4rem 0;
+        margin-top:     20pt;
+        text-align:     center;
+    }
+
+    h2 {
+        border-top:         1px solid black;
+        clear:              both;
+        font-family:        "Avenir-Light";
+        font-size:          0.8rem;
+        letter-spacing:     0.6rem;
+        margin:             40pt 0 15pt 0;
+        padding-top:        0.3em;
+        text-align:         right;
+        text-transform:     uppercase;
+    }
 
 /* h2:before {
  border-radius:          100pt;
@@ -105,113 +133,157 @@ h2 {
  content:    "❛";
  }*/
 
-b, strong {
-    background-color:       #FFF8AB;
-    font-weight:            normal;
-    padding-left:           0.13em;
-    padding-right:          0.15em;
-}
+/*
+ * ─── BOLD ───────────────────────────────────────────────────────────────────────
+ */
 
-table {
-    border-collapse:    separate;
-    border-color:       black;
-    border-spacing:     2px;
-    display:            table;
-}
-
-li {
-    list-style-type:    upper-roman;
-    margin-bottom:      0.7rem;
-}
-
-thead {
-    border-color:       black;
-    display:            table-header-group;
-    vertical-align:     middle;
-}
-
-tbody > tr > td {
-    padding-right:      5pt;
-}
-
-pre {
-    background-color:       #f7f7f7;
-    border-radius:          3pt;
-    padding:                7pt 12pt 8pt 12pt;
-}
-
-code {
-    font-family:    "Hasklig-Medium";
-    font-size:      0.8rem;
-}
-
-.kary-logo {
-    height:         50pt;
-    opacity:        0.1;
-    text-align:     right;
-    width:          50pt;
-}
-
-@media print {
-    h1 {
-        page-break-before:      always;
+    b, strong {
+        background-color:       #FFF8AB;
+        font-weight:            normal;
+        padding-left:           0.13em;
+        padding-right:          0.15em;
     }
 
-    h1:first-child {
-        page-break-before:      avoid !important;
+/*
+ * ─── TABLE ──────────────────────────────────────────────────────────────────────
+ */
+
+    table {
+        border-collapse:    separate;
+        border-color:       black;
+        border-spacing:     2px;
+        display:            table;
     }
-}
 
-.title-ornament-container {
-    display:        flex;
-    max-width:      fit-content;
-}
+    li {
+        list-style-type:    upper-roman;
+        margin-bottom:      0.7rem;
+    }
 
-.title-ornament-container > h1 {
-    align-self:         center;
-    font-size:          1.7cm;
-    margin:             1.2cm 0 1.2cm 0;
-    text-transform:     capitalize;
-    width:              fit-content;
-}
+    thead {
+        border-color:       black;
+        display:            table-header-group;
+        vertical-align:     middle;
+    }
 
-.title-ornament {
-    height:     3cm;
-    width:      3cm;
-}
+    tbody > tr > td {
+        padding-right:      5pt;
+    }
 
-.title-left-ornament {
-    align-self:     flex-end;
-    position:       relative;
-    right:          -2.5cm;
-}
+/*
+ * ─── CODE ───────────────────────────────────────────────────────────────────────
+ */
 
-.title-right-ornament {
-    align-self:     flex-start;
-    left:           -2.5cm;
-    position:       relative;
-}
+    pre {
+        background-color:       #f7f7f7;
+        border-radius:          3pt;
+        padding:                7pt 12pt 8pt 12pt;
+    }
 
-.title-author {
-    text-align:     center;
-}
+    code {
+        font-family:    "Hasklig-Medium";
+        font-size:      0.8rem;
+    }
 
-right {
-    display:        block;
-    text-align:     right;
-    width:          100%;
-}
+/*
+ * ─── QUOTES ─────────────────────────────────────────────────────────────────────
+ */
 
-kary-signature {
-    background-image:       url('./signeture.png');
-    background-position:    right center;
-    background-repeat:      no-repeat;
-    background-size:        contain;
-    display:                block;
-    height:                 80pt;
-    width:                  100%;
-}
+    blockquote {
+        padding:                0.1rem 1.2rem 0.1rem 1.2rem;
+        margin:                 1rem 1.5rem 1rem 1.5rem !important;
+        background-color:       aliceblue;
+    }
 
-img {
-    max-width:      100%;
-}
+/*
+ * ─── KARY LOGO ──────────────────────────────────────────────────────────────────
+ */
+
+    .kary-logo {
+        height:         50pt;
+        opacity:        0.1;
+        text-align:     right;
+        width:          50pt;
+    }
+
+    @media print {
+            h1 {
+                page-break-before:      always;
+            }
+
+            h1:first-child {
+                page-break-before:      avoid !important;
+            }
+    }
+
+/*
+ * ─── TITLE ORNAMENT ─────────────────────────────────────────────────────────────
+ */
+
+    .title-ornament-container {
+        display:        flex;
+        max-width:      fit-content;
+    }
+
+    .title-ornament-container > h1 {
+        align-self:         center;
+        font-size:          1.7cm;
+        margin:             1.2cm 0 1.2cm 0;
+        text-transform:     capitalize;
+        width:              fit-content;
+    }
+
+    .title-ornament {
+        height:     3cm;
+        width:      3cm;
+    }
+
+    .title-left-ornament {
+        align-self:     flex-end;
+        position:       relative;
+        right:          -2.5cm;
+    }
+
+    .title-right-ornament {
+        align-self:     flex-start;
+        left:           -2.5cm;
+        position:       relative;
+    }
+
+    .title-author {
+        text-align:     center;
+    }
+
+/*
+ * ─── RIGHT ──────────────────────────────────────────────────────────────────────
+ */
+
+    right {
+        display:        block;
+        text-align:     right;
+        width:          100%;
+    }
+
+/*
+ * ─── KARY SIGNATURE ─────────────────────────────────────────────────────────────
+ */
+
+    kary-signature {
+        background-image:       url('./signeture.png');
+        background-position:    right center;
+        background-repeat:      no-repeat;
+        background-size:        contain;
+        display:                block;
+        height:                 80pt;
+        width:                  100%;
+    }
+
+/*
+ * ─── IMAGE ──────────────────────────────────────────────────────────────────────
+ */
+
+    img {
+        max-width:      100%;
+    }
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
