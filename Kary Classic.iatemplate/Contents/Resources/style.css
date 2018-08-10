@@ -36,16 +36,13 @@
  */
 
     a {
-        background-color:       #abe8ff;
-        color:                  black;
-        font-weight:            normal;
-        padding-left:           0.13em;
-        padding-right:          0.15em;
-        text-decoration:        none;
-    }
-
-    a:visited {
-        background-color:       #afabff;
+        color:              black;
+        font-weight:        normal;
+        padding-left:       0.13em;
+        padding-right:      0.15em;
+        text-decoration:    none;
+        padding-bottom:     2px;
+        border-bottom:      1px solid black;
     }
 
 /*
@@ -80,7 +77,7 @@
  */
 
     p {
-        line-height:    1.4;
+        line-height:    1.5;
         text-align:     justify;
     }
 
@@ -109,7 +106,7 @@
         clear:              both;
         font-family:        "Avenir-Light";
         font-size:          0.8rem;
-        letter-spacing:     0.6rem;
+        letter-spacing:     0.8rem;
         margin:             40pt 0 15pt 0;
         padding-top:        0.3em;
         text-align:         right;
@@ -279,11 +276,28 @@
     }
 
 /*
+ * ─── SUB AND SUP ────────────────────────────────────────────────────────────────
+ */
+
+    sub {
+        vertical-align:     baseline;
+        position:           relative;
+        top:                +0.4em;
+    }
+
+    sup {
+        vertical-align:     baseline;
+        position:           relative;
+        top:                -0.4em;
+    }
+
+/*
  * ─── IMAGE ──────────────────────────────────────────────────────────────────────
  */
 
     img {
         max-width:      100%;
+        margin:         1rem;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
