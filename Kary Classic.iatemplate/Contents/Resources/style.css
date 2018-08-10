@@ -11,7 +11,7 @@
 
     html {
         background-color:       white;
-        font-family:            "Cormorant-Regular";
+        font-family:            'cormorant-regular-weight', 'computer-modern-regular-serif', "HiraMinProN-W3";
         font-size:              14pt;
     }
 
@@ -91,14 +91,19 @@
     }
 
     h1 {
+        font-family:            'computer-modern-sans-serif-demi-condensedt';
+        line-height:            1.3;
         counter-increment:      h1counter;
         counter-reset:          h2counter;
+        margin-left:            3rem;
+        margin-right:           3rem;
     }
 
     h1:first-child {
-        margin:         3rem 0 4rem 0;
-        margin-top:     20pt;
-        text-align:     center;
+        margin-top:         2rem;
+        margin-bottom:      4rem;
+        margin-top:         20pt;
+        text-align:         center;
     }
 
     h2 {
