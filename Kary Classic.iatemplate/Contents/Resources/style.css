@@ -91,12 +91,12 @@
     }
 
     h1 {
-        font-family:            'computer-modern-sans-serif-demi-condensedt';
-        line-height:            1.3;
+        font-family:            'computer-modern-title';
+        line-height:            1.2;
         counter-increment:      h1counter;
         counter-reset:          h2counter;
-        margin-left:            3rem;
-        margin-right:           3rem;
+        margin:                 auto;
+        max-width:              400pt;
     }
 
     h1:first-child {
@@ -303,6 +303,15 @@
     img {
         max-width:      100%;
         margin:         1rem;
+    }
+
+/*
+ * ─── MATH CLASS ─────────────────────────────────────────────────────────────────
+ */
+
+    .math {
+        font-family:    'knuth-computer-modern-regular-serif', "HiraMinProN-W3";
+        font-weight:    normal;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
