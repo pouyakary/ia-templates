@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'computer-modern-regular-serif';
+    font-family: 'computer-modern-math';
     src: url('./fonts/cmunrm.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: 'computer-modern-sans-serif-demi-condensedt';
+    font-family: 'computer-modern-title';
     src: url('./fonts/cmunssdc.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
