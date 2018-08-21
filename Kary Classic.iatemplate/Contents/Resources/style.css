@@ -68,8 +68,8 @@
  * ─── ITALIC ─────────────────────────────────────────────────────────────────────
  */
 
-    i {
-        font-family:    "Cormorant-Italic";
+    em, i {
+        font-family:    "Cormorant-Italic" !important;
     }
 
 /*
@@ -97,6 +97,7 @@
         counter-reset:          h2counter;
         margin:                 auto;
         max-width:              400pt;
+        text-transform:         capitalize;
     }
 
     h1:first-child {
@@ -193,8 +194,10 @@
 
     blockquote {
         padding:                0.1rem 1.2rem 0.1rem 1.2rem;
-        margin:                 1rem 1.5rem 1rem 1.5rem !important;
+        margin:                 2rem 1.5rem 2rem 1.5rem !important;
         background-color:       aliceblue;
+        font-family:            "Cormorant-Italic";
+        text-align:             left;
     }
 
 /*
