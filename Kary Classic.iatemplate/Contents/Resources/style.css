@@ -317,4 +317,35 @@
         font-weight:    normal;
     }
 
+/*
+ * ─── TABLE OF CONTENTS ──────────────────────────────────────────────────────────
+ */
+
+    .TOC {
+        font-family:        "Avenir-Light";
+        text-decoration:    none !important;
+    }
+
+    .TOC p {
+        line-height:    2.0;
+    }
+
+    .TOC a {
+        color:                  #1C7AB8;
+        background-color:       #E0EEFA;
+        border-radius:          4px;
+        font-size:              15px;
+        font-weight:            normal;
+        text-decoration:        none;
+        border:                 none;
+        padding:                2px 8px 2px 8px;
+        margin:                 0;
+    }
+
+    .TOC li {
+        list-style-type:    upper-roman;
+        margin-bottom:      0.25rem;
+        margin-top:         0.25rem;
+    }
+
 /* ──────────────────────────────────────────────────────────────────────────────── */
