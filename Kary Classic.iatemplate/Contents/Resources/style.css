@@ -152,25 +152,42 @@
  */
 
     table {
-        border-collapse:    separate;
-        border-color:       black;
-        border-spacing:     2px;
-        display:            table;
+        border-collapse:    collapse;
+        font-family:        'cormorant-regular-weight';
+        width:              100%;
+        font-size:          1rem;
     }
 
-    li {
-        list-style-type:    upper-roman;
-        margin-bottom:      0.7rem;
+    thead > tr > th {
+        border-bottom:      1pt solid black;
+        font-family:        "CMUSansSerif";
+        font-size:          0.8rem;
+        font-weight:        bold;
+        margin:             0;
     }
 
-    thead {
-        border-color:       black;
-        display:            table-header-group;
-        vertical-align:     middle;
+    thead > tr > th ~ th {
+        padding-left:       0.2cm;
     }
 
-    tbody > tr > td {
-        padding-right:      5pt;
+    table, td, th {
+        border-width:       0;
+    }
+
+    td {
+        line-height:        1.5;
+        min-width:          2.8cm;
+        padding:            9pt 10pt 10pt 0;
+        vertical-align:     top;
+    }
+
+    td ~ td {
+        padding-left:       0.2cm;
+        border-left:        1pt solid #ccc;
+    }
+
+    tr {
+        border-bottom:      1pt #ccc solid;
     }
 
 /*
@@ -324,22 +341,19 @@
     .TOC {
         font-family:        "Avenir-Light";
         text-decoration:    none !important;
-    }
-
-    .TOC p {
-        line-height:    2.0;
+        border-left:        5pt solid #FBED6C;
+        margin-bottom:      50pt;
     }
 
     .TOC a {
-        color:                  #1C7AB8;
-        background-color:       #E0EEFA;
-        border-radius:          4px;
-        font-size:              15px;
-        font-weight:            normal;
-        text-decoration:        none;
-        border:                 none;
-        padding:                2px 8px 2px 8px;
-        margin:                 0;
+        color:              black;
+        border-radius:      4px;
+        font-size:          15px;
+        font-weight:        normal;
+        text-decoration:    none;
+        border:             none;
+        padding:            2px 8px 2px 8px;
+        margin:             0;
     }
 
     .TOC li {
