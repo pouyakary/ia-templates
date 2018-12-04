@@ -124,22 +124,12 @@
         text-transform:     uppercase;
     }
 
-/* h2:before {
- border-radius:          100pt;
- color:                  #aaa;
- content:                counter(h1counter) "/" counter(h2counter);
- counter-increment:      h2counter;
- float:                  left;
- font-family:            "Hasklig-Medium";
- font-size:              7pt;
- letter-spacing:         normal;
- margin-left:            5pt;
- padding-bottom:         6pt;
- }*/
-
-/* h2:before {
- content:    "❛";
- }*/
+    h3 {
+        font-size:          1rem;
+        padding-top:        1rem !important;
+        margin-bottom:      0 !important;
+        padding-bottom:     0 !important;
+    }
 
 /*
  * ─── BOLD ───────────────────────────────────────────────────────────────────────
