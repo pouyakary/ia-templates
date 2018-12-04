@@ -218,6 +218,7 @@
         background-color:       aliceblue;
         font-family:            "Cormorant-Italic";
         text-align:             left;
+        color:                  #1C7AB8;
     }
 
 /*
@@ -382,6 +383,19 @@
     .TOC > ul {
         clear:          both;
         margin-left:    7pt;
+    }
+
+/*
+ * ─── BLOCKQUOTE TITLE ───────────────────────────────────────────────────────────
+ */
+
+    bqt {
+        font-family:        "Avenir-Heavy";
+        font-size:          10pt;
+        letter-spacing:     6pt;
+        text-transform:     uppercase;
+        display:            block;
+        margin-bottom:      0.5rem;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
