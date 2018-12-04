@@ -186,6 +186,14 @@
     }
 
 /*
+ * ─── LIST ───────────────────────────────────────────────────────────────────────
+ */
+
+    li {
+        margin-bottom:      1rem;
+    }
+
+/*
  * ─── CODE ───────────────────────────────────────────────────────────────────────
  */
 
@@ -348,16 +356,17 @@
 
     .TOC {
         font-family:        "Avenir-Light";
+        font-size:          15px;
         text-decoration:    none !important;
         border-left:        5pt solid #fbed6c;
         margin-bottom:      50pt;
         margin-left:        22pt;
+        padding-bottom:     5pt;
     }
 
     .TOC a {
         color:              black;
         border-radius:      4px;
-        font-size:          15px;
         font-weight:        normal;
         text-decoration:    none;
         border:             none;
@@ -365,10 +374,10 @@
     }
 
     .TOC li {
-        list-style-type:    upper-roman;
+        list-style-type:    disc;
         margin-bottom:      0.25rem;
         margin-top:         0.25rem;
-        margin-left:        0;
+        margin-left:        -10pt;
         padding-left:       0;
     }
 
