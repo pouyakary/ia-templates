@@ -101,13 +101,15 @@
         margin-bottom:          3rem;
         padding-left:           0;
         margin-left:            0;
+        page-break-before:      always;
     }
 
     h1:first-child {
-        margin-top:         2rem;
-        margin-bottom:      4rem;
-        margin-top:         20pt;
-        text-align:         center;
+        margin-top:             2rem;
+        margin-bottom:          4rem;
+        margin-top:             20pt;
+        text-align:             center;
+        page-break-before:      avoid;
     }
 
     h2 {
