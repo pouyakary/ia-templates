@@ -338,11 +338,24 @@
  * ─── TABLE OF CONTENTS ──────────────────────────────────────────────────────────
  */
 
+    .TOC::before {
+        content:                "Table of Contents";
+        font-family:            "Avenir-Heavy";
+        padding-left:           10pt;
+        transform-origin:       left top;
+        height:                 15pt;
+        transform:              rotate(90deg);
+        margin-left:            -10pt;
+        margin-top:             -10pt;
+        float:                  left;
+    }
+
     .TOC {
         font-family:        "Avenir-Light";
         text-decoration:    none !important;
-        border-left:        5pt solid #FBED6C;
+        border-left:        5pt solid #fbed6c;
         margin-bottom:      50pt;
+        margin-left:        20pt;
     }
 
     .TOC a {
@@ -352,7 +365,6 @@
         font-weight:        normal;
         text-decoration:    none;
         border:             none;
-        padding:            2px 8px 2px 8px;
         margin:             0;
     }
 
@@ -360,6 +372,12 @@
         list-style-type:    upper-roman;
         margin-bottom:      0.25rem;
         margin-top:         0.25rem;
+        margin-left:        0;
+        padding-left:       0;
+    }
+
+    .TOC > ul {
+        clear:      both;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
