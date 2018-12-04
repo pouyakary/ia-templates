@@ -346,7 +346,7 @@
         height:                 15pt;
         transform:              rotate(90deg);
         margin-left:            -10pt;
-        margin-top:             -10pt;
+        margin-top:             -8pt;
         float:                  left;
     }
 
@@ -355,7 +355,7 @@
         text-decoration:    none !important;
         border-left:        5pt solid #fbed6c;
         margin-bottom:      50pt;
-        margin-left:        20pt;
+        margin-left:        22pt;
     }
 
     .TOC a {
@@ -377,7 +377,8 @@
     }
 
     .TOC > ul {
-        clear:      both;
+        clear:          both;
+        margin-left:    7pt;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
