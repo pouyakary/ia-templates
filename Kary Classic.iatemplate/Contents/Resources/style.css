@@ -151,6 +151,7 @@
         font-family:        'cormorant-regular-weight';
         width:              100%;
         font-size:          1rem;
+        margin-top:         1.5rem;
     }
 
     thead > tr > th {
