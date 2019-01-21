@@ -91,17 +91,21 @@
     }
 
     h1 {
-        font-family:            'computer-modern-title';
+        font-family:            'NYTCheltenham-ExtraLight';
         line-height:            1.2;
         counter-increment:      h1counter;
         counter-reset:          h2counter;
         margin:                 auto;
         max-width:              400pt;
-        text-transform:         capitalize;
         margin-bottom:          3rem;
         padding-left:           0;
         margin-left:            0;
         page-break-before:      always;
+    }
+
+    h1 em {
+        font-family:    "NYTCheltenham-ExtraLightItal" !important;
+        font-weight:    400;
     }
 
     h1:first-child {
@@ -411,6 +415,30 @@
         padding-bottom:     10pt;
         font-size:          10pt;
         border-bottom:      100pt solid #FFF8AB;
+    }
+
+/*
+ * ─── HEADER ─────────────────────────────────────────────────────────────────────
+ */
+
+    .header {
+        font-size:          10pt;
+        padding-bottom:     10pt;
+        padding-top:        10pt;
+        margin-bottom:      20pt;
+        max-height:         27pt;
+        text-align:         right;
+    }
+
+    .header-title {
+        border-right:       2pt solid #FFF8AB;
+        text-align:         right;
+        color:              black;
+        font-size:          8pt !important;
+        font-family:        "computer-modern-title";
+        margin-bottom:      5pt;
+        padding-top:        10pt;
+        padding-right:      5pt;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
