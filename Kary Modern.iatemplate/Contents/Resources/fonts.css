@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'computer-modern-math';
+    src: url('./fonts/cmunrm.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cormorant-regular-weight';
+    src: url('./fonts/Cormorant-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'computer-modern-title';
+    src: url('./fonts/cmunsx.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
